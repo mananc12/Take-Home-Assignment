@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('gotham/GothamBold.woff2'),
+   /* format('woff2'), */
+       url('gotham/GothamBold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham2';
+  src: url('gotham/GothamLight.woff2'),
+       url('gotham/GothamLight.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+:root {
+  /* fonts */
+  --font-gotham: Gotham;
+  --font-gotham2: Gotham2;
+
+  /* font sizes */
+  --font-size-3xl: 22px;
+  --font-size-9xl: 28px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-goldenrod: #ffc758;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-xs: 12px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+}
